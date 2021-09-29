@@ -1,5 +1,5 @@
 export const Practice4 = () => {
-  const calcTotalFee = (num) => {
+  const calcTotalFee = (num: number) => {
     const total = num * 1.1;
     console.log(total);
   };
